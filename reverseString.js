@@ -1,3 +1,1 @@
-export const reverse = (s) => {
-   	return s.split("").reverse().join("");
-}
+export const reverse = (s) => s.split('').reverse().join('');
