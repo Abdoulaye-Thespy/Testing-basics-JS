@@ -1,7 +1,7 @@
 export const encrypt = (input, shift) => {
     var result = ""; 
-        for (var i = 0; i < input.length; i++) {
-            var c = input.charCodeAt(i);
+        for (let i = 0; i < input.length; i++) {
+            let c = input.charCodeAt(i);
 
             if(c >= 65 && c <=  90) {
                result += String.fromCharCode((c - 65 + shift) % 26 + 65); 
